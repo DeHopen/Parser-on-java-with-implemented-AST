@@ -1,0 +1,6 @@
+var i is 1
+while i.LessEqual(arr.Size) loop
+ x := arr.get(i)
+ arr.set(i, x.Mult(x))
+ i := i.Plus(1)
+end

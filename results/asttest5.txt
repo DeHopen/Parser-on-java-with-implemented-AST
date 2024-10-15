@@ -1,0 +1,17 @@
+Program
+  IfStatement
+    MethodCall: Less
+      ID: x
+      Expression: 10
+    Block
+      Assignment
+        ID: x
+        MethodCall: Plus
+          ID: x
+          Expression: 1
+    Block
+      Assignment
+        ID: x
+        MethodCall: Minus
+          ID: x
+          Expression: 1

@@ -1,0 +1,5 @@
+if x.Less(10) then
+  x := x.Plus(1)
+else
+  x := x.Minus(1)
+end

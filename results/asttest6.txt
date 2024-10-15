@@ -1,0 +1,21 @@
+Program
+  ClassDeclaration: Person
+    VariableDeclaration
+      ID: name
+      Type: String
+    VariableDeclaration
+      ID: age
+      Type: Integer
+    ConstructorDeclaration
+      Parameters
+        Parameter: name : String
+        Parameter: age : Integer
+      Block
+        Assignment
+          MethodCall: name
+            ID: self
+          Expression: name
+        Assignment
+          MethodCall: age
+            ID: self
+          Expression: age

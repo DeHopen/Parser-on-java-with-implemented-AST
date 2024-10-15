@@ -1,0 +1,12 @@
+Program
+  ClassDeclaration: MathOps
+    MethodDeclaration: Add
+      Parameters
+        Parameter: x : Integer
+        Parameter: y : Integer
+      ReturnType: Integer
+      Block
+        ReturnStatement
+          MethodCall: Plus
+            ID: x
+            PropertyAccess: y

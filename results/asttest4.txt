@@ -1,0 +1,26 @@
+Program
+  VariableDeclaration
+    ID: i
+    Expression: 1
+  WhileStatement
+    MethodCall: LessEqual
+      ID: i
+      MethodCall: Size
+        ID: arr
+    Block
+      Assignment
+        ID: x
+        MethodCall: get
+          ID: arr
+          PropertyAccess: i
+      MethodCall: set
+        ID: arr
+        Expression: i
+        MethodCall: Mult
+          ID: x
+          PropertyAccess: x
+      Assignment
+        ID: i
+        MethodCall: Plus
+          ID: i
+          Expression: 1

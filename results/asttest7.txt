@@ -1,0 +1,14 @@
+Program
+  ClassDeclaration: Box
+    GenericType: T
+    VariableDeclaration
+      ID: item
+      Type: T
+    ConstructorDeclaration
+      Parameters
+        Parameter: item : T
+      Block
+        Assignment
+          MethodCall: item
+            ID: self
+          Expression: item

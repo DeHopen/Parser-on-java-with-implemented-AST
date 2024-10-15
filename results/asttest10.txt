@@ -1,0 +1,17 @@
+Program
+  ClassDeclaration: Outer
+    ClassDeclaration: Inner
+      MethodDeclaration: doSomething
+        Parameters
+        Block
+          VariableDeclaration
+            ID: a
+            Type: Integer
+            MethodCall: Integer
+              ConstructorCall: Integer
+              Expression: 5
+          Assignment
+            ID: a
+            MethodCall: Plus
+              ID: a
+              Expression: 10

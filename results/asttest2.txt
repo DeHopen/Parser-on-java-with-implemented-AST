@@ -1,0 +1,7 @@
+Program
+  VariableDeclaration
+    ID: flag
+    Type: Boolean
+    MethodCall: Boolean
+      ConstructorCall: Boolean
+      PropertyAccess: true

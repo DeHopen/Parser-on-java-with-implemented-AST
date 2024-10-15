@@ -1,0 +1,2 @@
+x := flag.And(y)
+y := x.Or(z)

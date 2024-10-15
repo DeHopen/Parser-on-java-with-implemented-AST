@@ -1,0 +1,6 @@
+class Box[T] is
+ var item : T
+ this(item: T) is
+   self.item := item
+ end
+end

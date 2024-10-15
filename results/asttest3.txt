@@ -1,0 +1,8 @@
+Program
+  Assignment
+    ID: x
+    MethodCall: Plus
+      MethodCall: get
+        ID: a
+        PropertyAccess: i
+      Expression: 1

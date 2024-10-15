@@ -1,0 +1,8 @@
+class Person is
+ var name : String
+ var age : Integer
+ this(name: String, age: Integer) is
+   self.name := name
+   self.age := age
+ end
+end

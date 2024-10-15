@@ -1,0 +1,8 @@
+class Outer is
+ class Inner is
+   method doSomething() is
+     var a : Integer(5)
+     a := a.Plus(10)
+   end
+ end
+end

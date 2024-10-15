@@ -1,0 +1,5 @@
+class MathOps is
+ method Add(x: Integer, y: Integer) : Integer is
+   return x.Plus(y)
+ end
+end

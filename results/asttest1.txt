@@ -1,0 +1,7 @@
+Program
+  VariableDeclaration
+    ID: b
+    Type: Integer
+    MethodCall: Integer
+      ConstructorCall: Integer
+      Expression: 10

@@ -1,0 +1,11 @@
+Program
+  Assignment
+    ID: x
+    MethodCall: And
+      ID: flag
+      PropertyAccess: y
+  Assignment
+    ID: y
+    MethodCall: Or
+      ID: x
+      PropertyAccess: z
